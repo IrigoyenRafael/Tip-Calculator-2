@@ -1,0 +1,125 @@
+html{
+    background-color: rgb(189, 218, 218);
+}
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, .bloque1 {
+    width: 100%;
+    height: 100%;
+}
+
+.block1{
+    display: flex;
+    width: 700px;
+    height: 320px;
+    border-radius: 25px;
+    margin: 10px;
+    background-color: white
+    
+}
+    
+
+.blockizquierda {
+    width: 50%;
+    background-color: white;
+    border-radius: 25px;
+    padding: 2rem;
+    margin-top: 25px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+.blockderecha {
+    width: 45%;
+    background-color: rgb(44, 82, 64);
+    padding: 2rem;
+    border-radius: 25px;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.numeros {
+    font-size: 2rem;
+    font-family:fantasy ;
+    color: teal;
+}
+
+
+.blockderecha button {
+    background-color: rgb(189, 218, 218);
+    color: teal;
+    border-radius: 5px;
+    width: 90%;
+    height: 35px;
+    margin-top: 24%;
+    margin-left: 6%;
+    font-weight: 900;
+}
+
+.porc {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.porc div, 
+.porc input{
+    width: calc(90% / 3);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.input {
+    width: 100%;
+    background-color: rgb(189, 218, 218);
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    color: rgb(44, 82, 64);
+    letter-spacing: 0.5px;
+    padding: .9em 1em;
+    font-weight: bolder;
+}
+
+::placeholder{
+    color: teal;
+    font-size: 1.2rem;
+}
+
+.flex {
+    display: flex;  
+    justify-content: space-between;
+    color: white;
+}
+
+.select {
+    
+    color: white;
+    background-color: teal;
+    text-align: center;
+    border-radius: 5px;  
+    height: 32px;
+    line-height: 32px;
+}
+
+
+
+.numeros1 {
+    font-size: 1px;
+    font-family:fantasy ;
+    color: white;
+}
+
